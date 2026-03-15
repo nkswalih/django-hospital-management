@@ -1,0 +1,13 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+db.sqlite3
+datadump.json
+datadump_utf8.json
+fix.py
+
+
+.venv/
+djvenv/
+*.sqlite3
