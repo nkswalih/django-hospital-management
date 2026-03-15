@@ -6,8 +6,8 @@ db.sqlite3
 datadump.json
 datadump_utf8.json
 fix.py
-
-
+staticfiles/
+uploads/
 .venv/
 djvenv/
 *.sqlite3
