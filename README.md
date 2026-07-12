@@ -1,9 +1,7 @@
 # 🏥 Health+ — Hospital Appointment Booking System
 
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org)
-
 [![Django](https://img.shields.io/badge/Django-5.0+-092E20?style=flat-square&logo=django&logoColor=white)](https://www.djangoproject.com)
-
 [![License](https://img.shields.io/badge/License-Educational-green?style=flat-square)](https://choosealicense.com)
 
 A production-ready, modern Hospital Appointment Booking Web Application engineered with Django. `Health+` provides patients with a seamless, friction-free workflow to discover departments, select specialist doctors, and book clinical appointments through a highly responsive utility-first layout.
@@ -12,13 +10,9 @@ A production-ready, modern Hospital Appointment Booking Web Application engineer
 ## ✨ Features
 
 * **🧑‍⚕️ Intelligent Doctor Allocation:** Dynamically filter and browse certified medical professionals separated by clinical department.
-
 * **📅 Date-Engine Booking:** Real-time appointment scheduling backed by native HTML5 date pickers.
-
 * **📝 Dynamic Validation:** Bulletproof form processing handled natively through secure backend form validations.
-
 * **🎨 Modern Utility UI:** Built on a unified aesthetic pairing the structured components of Bootstrap 5 with the design agility of Tailwind CSS classes.
-
 * **📋 Enterprise Control Center:** Fully integrated Django Admin suite configures real-time management over `Departments`, `Doctors`, and `Appointments`.
 
 ---
@@ -26,33 +20,18 @@ A production-ready, modern Hospital Appointment Booking Web Application engineer
 ## 🛠 Tech Stack
 
 | Technology | Purpose |
-
 | :--- | :--- |
-
 | **Python** | High-performance core backend object-oriented execution language. |
-
 | **Django** | Robust web architecture providing strict ORM data security. |
-
 | **SQLite** | Local relation database instance (ideal for development/testing). |
-
 | **Bootstrap 5** | Underlying component architecture and base modal structures. |
-
 | **Tailwind CSS** | Custom micro-layouts and advanced atomic alignment. |
-
 | **Crispy Forms** | Structured, beautiful form rendering with integrated errors. |
-
-
-
 ---
-
-
 
 ## 📂 Project Structure
 
-
-
 ```
-
 Project/
 ├── djenv/                   # Sandbox environment (Untracked via git)
 ├── Project/                 # Monolith Workspace Root
@@ -78,11 +57,13 @@ Project/
 ---
 ## ⚙️ Quickstart Installation & Setup
 Follow these steps to deploy a local instance of `Health+` on your workspace.
+
 ### 1. Clone the Source Repository
 ```bash
 git clone [https://github.com/nkswalih/health-appointment-system.git](https://github.com/nkswalih/health-appointment-system.git)
 cd health-appointment-system
 ```
+
 ### 2. Configure Virtual Environment Sandbox
 ```bash
 # Initialize instance
@@ -92,24 +73,30 @@ venv\Scripts\activate
 # macOS / Linux Activation Script
 source venv/bin/activate  
 ```
+
 ### 3. Install Package Dependencies
 ```bash
 pip install django django-crispy-forms crispy-bootstrap5
 ```
+
 ### 4. Database Schema Migration
 Initialize the structural state migrations into your engine:
+
 ```bash
 python manage.py makemigrations
 python manage.py migrate
 ```
+
 ### 5. Instantiate Administrative Superuser
 ```bash
 python manage.py createsuperuser
 ```
+
 ### 6. Spin Up the Local Web Server
 ```bash
 python manage.py runserver
 ```
+
 Once initialized, navigate to [http://127.0.0.1:8000/](http://127.0.0.1:8000/) to access the portal interface.
 ---
 ## 📅 Architecture & Workflows
