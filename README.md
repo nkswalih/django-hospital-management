@@ -115,7 +115,6 @@ The backend system panel can be evaluated at [http://127.0.0.1:8000/admin/](http
 ## 📸 Interface Previews
 
 <img width="1898" height="968" alt="image" src="https://github.com/user-attachments/assets/f44cd89a-aac6-4de6-af17-d9aa95cd4a7d" />
-<img width="1897" height="969" alt="image" src="https://github.com/user-attachments/assets/6817a7e7-373d-4536-838b-5355b122031b" />
 <img width="1902" height="968" alt="image" src="https://github.com/user-attachments/assets/6bdedf8e-bd7f-4eb8-9470-30b1e7a54f46" />
 
 ---
